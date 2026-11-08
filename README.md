@@ -4,7 +4,7 @@ Vite + React + TypeScript 프로젝트에 GitHub Actions CI/CD를 연습하는 �
 화면은 가상의 인증서 서비스 **SimplePass**를 소개하는 데모 랜딩 페이지입니다. 이름, 수치, 기관, 연락처는 모두 가상의 데이터입니다.
 
 - 배포 주소: https://bonneidee2.github.io/front-cicd/
-- CI (`.github/workflows/ci.yml`): PR과 main 이외 브랜치 push마다 `lint`와 `build`를 실행합니다
+- CI (`.github/workflows/ci.yml`): PR을 열거나 PR 브랜치에 push할 때 `lint`와 `build`를 실행합니다 (Actions 탭에서 수동 실행도 가능)
 - CD (`.github/workflows/deploy.yml`): main에 push하면 빌드해서 GitHub Pages에 배포합니다
 
 ## 로컬 실행
